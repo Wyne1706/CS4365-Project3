@@ -23,3 +23,6 @@ separate clauses. These clauses should be added to the KB from left to right ord
 contains another clause which is logically equivalent to it.
 • Clauses that evaluate to True should not be added to the KB.
 • Generated clauses should not have redundant (repeated) literals
+
+To Run
+python main.py demo1.in.txt
