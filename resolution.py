@@ -3,7 +3,7 @@ import sys
 
 def main():
     clauses = []
-    with open('demo.in.txt', errors = 'ignore') as input_file:
+    with open('demo.in', errors = 'ignore') as input_file:
         for i, line in enumerate(input_file):
             line = re.sub(r'\n', '', line)
             line = re.sub(r'[ \t]+$', '', line)
